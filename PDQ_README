@@ -1,0 +1,13 @@
+Predict Different Quasars (PDQ)
+
+These are IDL programs that calculate signal-to-noise ratio (S/N) of potentially predictable, yet acausal, colour-difference of two near-antipodal quasars from different ground-based telescopes.  This provides the potential for a truly loophole-free Bell-test: for such quasars, simultaneous observations would be unspoiled by interference from the observers at the two sites, as those can be separated by a light-travel-time larger than the necessary photon-sampling rate of the quasars to reach that S/N.  The code simply runs the individual programs, with their settings as set in their respective parameter input tables.  There is a test dataset provided from Gemini `Alopeke/Zorro fast-framerate imaging of two stars, which is analyzed, and provides real-world calibration of the estimates.  Output test files are saved, and figures stored as JPEGs; these are as reported in the associated journal paper. The output is a list of potential quasar pairs observable with Gemini, and the best nights in the coming year to achieve the required S/N to verify they are uncorrelated.
+
+The test data and quasar catalog are available for download as gzipped-tarfiles from CANFAR.  Download those first, and gunzip them.
+
+To run, having downloaded all contents of Software and Data to a directory, start IDL.  And then, on the command-line:
+>predict_different_quasars
+
+You are welcome to use or modify this code as you wish, and if you do so please cite the associated reference paper for PDQ:
+Steinbring, E., "Is it Possible to View Perfectly Uncorrelated Quasars and Avoid Spoiling a Loophole-Free Earth-Wide Bell Test?", Universe, submitted
+
+Eric Steinbring, 7 November 2024

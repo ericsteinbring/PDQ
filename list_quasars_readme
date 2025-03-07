@@ -1,0 +1,6 @@
+Results from heasarc_milliquas: Million Quasars Catalog (MILLIQUAS), Version 4.8 (22 June 2016)
+Coordinate system:  Equatorial
+
+The orginal file is generated as pure text from the NASA web interface. This is a long file, almost 87 Mbytes.
+
+To reformat into a form that Python can read: open the list in gedit, replace every space with a colon, and then delete double instances of colons, along with any white spaces in target names.  Replace any white space with an underscore, and then delete all the instances of "|".
